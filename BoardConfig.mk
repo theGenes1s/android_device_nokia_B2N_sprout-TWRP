@@ -135,3 +135,16 @@ RECOVERY_INSTALLER_PATH := device/nokia/B2N_sprout/installer
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_HAS_EDL_MODE := true
+
+#SHRP_Variables 
+SHRP_PATH := evice/nokia/B2N_sprout
+SHRP_MAINTAINER := epicX 
+SHRP_DEVICE_CODE := B2N_sprout 
+SHRP_EDL_MODE := 1 
+SHRP_EXTERNAL := /sdcard1  
+SHRP_INTERNAL := /sdcard 
+SHRP_OTG := /usb_otg 
+SHRP_REC := /dev/block/bootdevice/by-name/recovery 
+SHRP_REC_TYPE := Treble 
+SHRP_DEVICE_TYPE := A/B
+SHRP_FLASH := 0
